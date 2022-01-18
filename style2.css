@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  background-image: linear-gradient(black, gray);
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+nav h1 {
+  padding-top: 15px;
+  padding-left: 30px;
+  font-size: 30px;
+}
+.nav {
+  display: flex;
+  width: 400px;
+}
+h3 {
+  padding: 20px;
+  border-radius: 15px;
+}
+h3:hover {
+  background-image: linear-gradient(white,);
+}
+a {
+  color: aqua;
+}
+
+/* banner */
+.banner {
+  display: flex;
+  height: 85vh; 
+  background-size: cover;
+  background-position: center;
+}
+.banner h1 {
+  display: flex;
+  flex-direction: column;
+  color: aqua;
+  padding: 50px;
+  margin: auto;
+  border: 1px solid;
+  border-radius: 30px;
+  background-color: rgba(68, 145, 145, 0.247);
+}
+.banner i {
+  margin-left: 120px;
+}
+.minion{
+  background-image: url(./gambar/d.jpg);
+}
+.Up{
+  background-image: url(./gambar/u.jpg);
+}
+.nemo{
+  background-image: url(./gambar/n.jpg);
+}
+.ui{
+  background-image: url(./gambar/ui.jpg);
+}
+.dragon{
+  background-image: url(./gambar/z.jpg);
+}
+.monsters{
+  background-image: url(./gambar/y.jpg);
+}
+.ToyStory{
+  background-image: url(./gambar/t.jpg);
+}
+.frozen{
+  background-image: url(./gambar/f.jpeg);
+}
+.cars{
+  background-image: url(./gambar/c.jpg);
+}
+.bolt{
+  background-image: url(./gambar/bolt.jpg);
+}
+.spongebob{
+  background-image: url(./gambar/ts.jpg);
+}
+.Spider-Man {
+  background-image: url(./gambar/sp.jpg);
+}
+.insidious {
+  background-image: url(./gambar/insidious.jpg);
+}
+.home{
+  background-image: url(./gambar/hc.jpg);
+}
+.residen{
+  background-image: url(./gambar/rs.jpg);
+}
+.avangers{
+  background-image: url(./gambar/av.jpg);
+}
+  /* deskripsi */
+.deskripsi {
+  padding: 30px;
+}
+
+/* trailer */
+.trailer {
+  padding: 30px;
+}
+iframe {
+  margin-top: 20px;
+  width: 100%;
+  height: 85vh;
+}
+
+/* filmlain */
+.filmlain {
+  padding: 30px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box img {
+  height: 300px;
+	width: 200px;
+	margin: 10px;
+	margin-top: 40px;
+	box-shadow: 0 0 20px aqua;
+}
+.box img:hover {
+  transform: translateY(-5%);
+  transition: 0.7s;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100px;
+  background-image: linear-gradient(white, black);
+  color: aqua;
+}
